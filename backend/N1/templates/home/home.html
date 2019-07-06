@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Home</title>
+</head>
+<body class="document">
+  <header class="header">
+      {% include "home/navbar.html" %}
+  </header>
+  <main class="main"></main>
+  <footer class="footer">
+    Copyright {%now "Y"%}
+  </footer>
+</body>
+</html>
+<style>
+    .document {
+        font-family: "Helvetica Neue";
+    }
+    .header {
+        border: 1px solid red;
+    }
+    .main {
+        border: 1px solid red;
+        height: 550px;
+        width: 450px;
+    }
+    .footer {
+        border: 1px solid red;
+    }
+</style>
