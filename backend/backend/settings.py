@@ -43,6 +43,7 @@ INSTALLED_APPS = [
     'rest_framework',
     'N1.apps.N1Config',
     'Study.apps.StudyConfig',
+    'Experiment.apps.ExperimentConfig',
 ]
 
 MIDDLEWARE = [

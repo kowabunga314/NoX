@@ -1,4 +1,3 @@
-from django.shortcuts import render
 from rest_framework import viewsets
 from .models import Study, StudyVote, StudyThread, StudyThreadVote, StudyComment, StudyCommentVote
 from .serializers import StudySerializer, StudyVoteSerializer, StudyThreadSerializer, StudyThreadVoteSerializer, \

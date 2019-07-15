@@ -1,4 +1,3 @@
-from django.conf.urls import url, include
 from rest_framework import serializers, routers
 from .models import Study, StudyVote, StudyThread, StudyThreadVote, StudyComment, StudyCommentVote
 
